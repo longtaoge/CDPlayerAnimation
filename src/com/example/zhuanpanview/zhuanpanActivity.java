@@ -19,7 +19,7 @@ public class zhuanpanActivity extends Activity {
 		// 自定义的View
 		panView = (zhuanpanView) this
 				.findViewById(R.id.zhuanpanV);
-		panView.setDuration(900);
+		panView.setDuration(2700);
 		// 开始旋转的按钮
 		Button startButton = (Button) this.findViewById(R.id.startButton);
 		startButton.setOnClickListener(new OnClickListener() {

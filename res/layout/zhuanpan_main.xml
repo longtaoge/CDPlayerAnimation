@@ -31,14 +31,15 @@
 
         <com.example.zhuanpanview.zhuanpanView
             android:id="@+id/zhuanpanV"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/cd_square_length"
+            android:layout_height="@dimen/cd_square_length"
             />
 
         <ImageView
             android:id="@+id/roatateView"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/cd_square_length"
+            android:layout_height="@dimen/cd_square_length"
+            android:layout_marginLeft="20dp"
             android:src="@drawable/music_player_wheel"/>
     </LinearLayout>
 </LinearLayout>
